@@ -31,4 +31,4 @@
     * Metamask.
 ### Working of the system
 
-![Working](/images/block.png)
+![Working](/images/block.PNG)
