@@ -6,7 +6,7 @@ import getWeb3 from "../utils/getWeb3";
 
 import '../CSS/policeList.css';
 
-class CaseList extends Component{
+class ForensicList extends Component{
 
     state = {
         details : [],
@@ -134,4 +134,4 @@ class CaseList extends Component{
     }   
 }
 
-export default CaseList;
+export default ForensicList;

@@ -18,17 +18,21 @@ class PoliceHome extends Component {
             </div>
             
         </nav>
+        <h4 className="title-styled" style={{marginTop: "40px", marginLeft: "235px", marginBottom:"10px"}}>List of pending cases</h4>
             <div className = "container homeList center">
                 <div className="card blue darken-3 headers">
                     <div className="row ">
-                        <div className="col s4 white-text  ">
-                            <h5>Crime ID</h5>
+                        <div className="col s3 white-text  ">
+                            <h6>Crime ID</h6>
                         </div>
-                        <div className="col s4 white-text ">
-                            <h5>Offense Code</h5>
+                        <div className="col s3 white-text ">
+                            <h6>Offense Code</h6>
                         </div>
-                        <div className="col s4 white-text ">
-                            <h5>Description</h5>
+                        <div className="col s3 white-text ">
+                            <h6>Description</h6>
+                        </div>
+                        <div className="col s3 white-text ">
+                            <h6>Created Timestamp</h6>
                         </div>
                     </div>
                 </div>

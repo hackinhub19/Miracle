@@ -20,10 +20,19 @@ class Login extends Component {
             }
         else
             {
-                if( (uname=="PO1234") && (pass=="1234") )
-                    {
-                        browserHistory.push('/police');
-                    }        
+                if((uname=="PO1234") && (pass=="1234"))
+                {
+                    browserHistory.push('/police');
+                }  
+                else if( (uname=="FO1234") && (pass=="1234"))
+                {
+                    browserHistory.push('/forensichome');
+                } 
+                else
+                {
+                    alert("Wrong Username or Password");
+                    browserHistory.push('/');
+                }    
             }
     };
     render()
